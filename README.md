@@ -1,2 +1,0 @@
-# hehe
-Du trend
