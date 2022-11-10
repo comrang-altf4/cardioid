@@ -360,9 +360,9 @@ var ParticlePool = (function() {
 
     return new Point(
 
-      160 * Math.pow(Math.sin(t), 3),
+      10 * Math.sin(t)*Math.cos(t)*Math.log(Math.abs(t)),
 
-      130 * Math.cos(t) - 50 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
+      10*Math.pow(Math.abs(t),0.3)*Math.sqrt(Math.cos(t))
 
     );
 
